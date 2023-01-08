@@ -14,7 +14,9 @@ import img1 from "./img/Lilac_Cat.png";
 export default function MainComponent() {
   return (
     <MainBox>
-      <img src={img1} alt=""></img>
+      <CatImg>
+        <img src={img1} alt=""></img>
+      </CatImg>
     </MainBox>
   );
 }
@@ -22,5 +24,12 @@ export default function MainComponent() {
 const MainBox = styled.div`
   width: 100vw;
   height: 100vh;
-  z-index: 1;
+  position: relative;
+`;
+
+const CatImg = styled.div`
+  z-index: -1;
+  position: absolute;
+  top: 5rem;
+  left: 2rem;
 `;
