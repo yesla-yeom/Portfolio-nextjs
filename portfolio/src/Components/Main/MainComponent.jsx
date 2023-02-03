@@ -30,7 +30,9 @@ export default function MainComponent() {
           저에게 관심이 있으시거나
           <br /> 궁금한 점이 생기신 경우
           <p />
-          yenana1717@gmail.com
+          <a href="mailto:yenana17@gmail.com" class="email">
+            yenana17@gmail.com
+          </a>
           <p />
           위의 이메일로 언제든 연락주세요.
           <br />
