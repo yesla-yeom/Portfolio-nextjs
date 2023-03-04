@@ -23,7 +23,7 @@ export default function MainComponent() {
         <TitleBox3>
           현재 사이트는
           <br />
-          React / Express
+          React / Express / Next.js
           <br />
           등을 이용하여 제작되었습니다.
           <p />
